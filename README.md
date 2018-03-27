@@ -67,13 +67,6 @@ Initialized empty Git repository in /aqui/sera/o/seu/diretorio/.git/
 
 ## Ciclo de vida dos status dos arquivos
 
-Ciclo de vida dos status dos arquivos são:
-
-* [![Cor vermelha](https://placehold.it/16/F44336?text=+) Untracked](#-untracked)
-* [![Cor verde](https://placehold.it/16/4CAF50?text=+) Unmodified](#-unmodified)
-* [![Cor amarela](https://placehold.it/16/FFEB3B?text=+) Modified](#-modified)
-* [![Cor azul](https://placehold.it/16/2196F3?text=+) Staged](#-staged)
-
 ### ![Cor vermelha](https://placehold.it/16/F44336?text=+) Untracked
 
 Arquivos ![Cor vermelha](https://placehold.it/16/F44336?text=+) *UNTRACKED* são aqueles que não estão sendo monitorados pelo *git*. Todo arquivo que acaba de ser adicionado ao projeto estará nesse estado. Para que esses arquivos possam ser vistos pelo *git* é preciso adicioná-los ao repositório através do comando `git add <seuarquivo>`. Quando arquivos ![Cor vermelha](https://placehold.it/16/F44336?text=+) *UNTRACKED* são adicionados ao repositório (`git add <seuarquivo>`), eles vão direto para o estado ![Cor azul](https://placehold.it/16/2196F3?text=+) *STAGED*.
