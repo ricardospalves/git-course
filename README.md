@@ -69,10 +69,10 @@ Initialized empty Git repository in /aqui/sera/o/seu/diretorio/.git/
 
 Ciclo de vida dos status dos arquivos são:
 
-* [![Cor vermelha](https://placehold.it/16/F44336?text=+) Untracked](#untracked)
-* [![Cor verde](https://placehold.it/16/4CAF50?text=+) Unmodified](#unmodified)
-* [![Cor amarela](https://placehold.it/16/FFEB3B?text=+) Modified](#modified)
-* [![Cor azul](https://placehold.it/16/2196F3?text=+) Staged](#staged)
+* [![Cor vermelha](https://placehold.it/16/F44336?text=+) Untracked](#-untracked)
+* [![Cor verde](https://placehold.it/16/4CAF50?text=+) Unmodified](#-unmodified)
+* [![Cor amarela](https://placehold.it/16/FFEB3B?text=+) Modified](#-modified)
+* [![Cor azul](https://placehold.it/16/2196F3?text=+) Staged](#-staged)
 
 ### ![Cor vermelha](https://placehold.it/16/F44336?text=+) Untracked
 
