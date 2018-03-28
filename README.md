@@ -1,9 +1,29 @@
 # Curso de Git e Github para iniciantes
 
-Curso **[Git e Github para iniciantes](https://www.udemy.com/git-e-github-para-iniciantes/)** grátis do [Willian Justen de Vasconcelos](https://github.com/willianjusten) na plataforma [Udemy](https://www.udemy.com)
+Curso **[Git e Github para iniciantes](https://www.udemy.com/git-e-github-para-iniciantes/)** grátis do [Willian Justen de Vasconcelos](https://github.com/willianjusten) na plataforma [Udemy](https://www.udemy.com).
+
+**Aqui ficarão apenas os conceitos e comandos básicos do git**.
+
+## Menu de navegação
+
+* [Configurações iniciais](#configurações-iniciais)
+  * [Definindo valores](#definindo-valores)
+  * [Pegando valores](#pegando-valores)
+* [Iniciando um repositório](#iniciando-um-repositório)
+* [Ciclo de vida dos status dos arquivos](#ciclo-de-vida-dos-status-dos-arquivos)
+  * [Untracked](#-untracked)
+  * [Unmodified](#-unmodified)
+  * [Modified](#-modified)
+  * [Staged](#-staged)
+* [Visualizando logs](#visualizando-logs)
+  * [Opções do `log`](#Opções-do-log)
+    * [`--oneline`](#--oneline)
+    * [`--graph`](#--graph)
+    * [`--decorate`](#--decorate)
+    * [`--author`](#--author)
+  * [`shortlog`](#shortlog)
 
 ## Configurações iniciais
-
 
 ### Definindo valores
 
@@ -44,6 +64,8 @@ Pegando o tudo:
 ```git
 git config --list
 ```
+
+***
 
 ## Iniciando um repositório
 
@@ -118,7 +140,7 @@ Date:   Fri Sep 1 10:13:26 2017 -0300
 
 ### Opções do `log`
 
-#### `--online`
+#### `--oneline`
 
 Usando a opção `--oneline`, os commits são exibidos 1 em cada linha.
 
@@ -158,7 +180,7 @@ O resultado será:
 |
 ```
 
-#### `-–decorate`
+#### `--decorate`
 
 A opção `--decorate` mostra o branch do commit, se houve um merge e etc.
 
