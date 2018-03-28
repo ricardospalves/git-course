@@ -16,7 +16,7 @@ Curso **[Git e Github para iniciantes](https://www.udemy.com/git-e-github-para-i
   * [Modified](#-modified)
   * [Staged](#-staged)
 * [Visualizando logs](#visualizando-logs)
-  * [Opções do `log`](#Opções-do-log)
+  * [Opções do `log`](#opções-do-log)
     * [`--oneline`](#--oneline)
     * [`--graph`](#--graph)
     * [`--decorate`](#--decorate)
