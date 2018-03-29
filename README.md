@@ -22,6 +22,7 @@ Curso **[Git e Github para iniciantes](https://www.udemy.com/git-e-github-para-i
     * [`--decorate`](#--decorate)
     * [`--author`](#--author)
   * [`shortlog`](#shortlog)
+* [Visualizando as mudanças](#visualizando-as-mudanças)
 
 ## Configurações iniciais
 
@@ -249,4 +250,42 @@ O resultado será:
 ```git
 555 Maria 
 25 João da Silva
+```
+
+***
+
+## Visualizando as mudanças
+
+É possível ver quais foram as mudanças nos arquivos antes de fazer um commit com o comando `diff`:
+
+```git
+git diff
+```
+
+O resultado será semelhante a:
+
+```git
+diff --git a/README.md b/README.md
+index b3aa29e..21d521b 100644
+--- a/README.md
++++ b/README.md
+@@ -3,3 +3,6 @@
+ Parte não modificada
+
+ Parte não modificada
++ Sua mudança aqui
++ Sua mudança aqui
++ Sua mudança aqui
+```
+
+É possível também saber somente o nome do arquivo que foi modificado através da opção `--name-only`:
+
+```git
+git diff --name-only
+```
+
+O resultado será semelhante a:
+
+```git
+README.md
 ```
