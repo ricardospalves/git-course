@@ -289,3 +289,83 @@ O resultado será semelhante a:
 ```git
 README.md
 ```
+
+***
+
+## Branch
+
+Branch é um ponteiro móvel que leva a um commit.
+
+### Listando os branches
+
+O comando para listar os branches é:
+
+```git
+git branch
+```
+
+E o resultado será semelhante a este:
+
+```git
+* master
+  outra-branch
+  mais-uma-branch
+```
+
+O branch que você está no momento indicado pelo asterisco (\*).
+
+### Criando uma nova branch
+
+Para criar uma nova branch o comando é:
+
+```git
+git checkout <nome-da-branch>
+```
+
+Executando o comando acima, a branch é criada mas nada é retornado. Além disso, você continuará na mesma branch. Para criar uma nova branch e ir para ela o comando é:
+
+```git
+git checkout -b <nome-da-branch>
+```
+
+E será retornado.
+
+```git
+Switched to a new branch '<nome-da-branch>'
+```
+
+### Navegando pelas branches
+
+Para navegar entre as branches o comando é exatamente igual para criar uma nova branch. Caso a branch exista, você será movido para ela, senão, uma nova branch será criada.
+
+```git
+git checkout <nome-da-branch>
+```
+
+E será retornado:
+
+```git
+Switched to a new branch '<nome-da-branch>'
+```
+
+### Deletando uma branch
+
+Para deletar uma branch o comando é:
+
+```git
+git branch -D <nome-da-branch>
+```
+
+E será retornado algo semelhante a:
+
+```git
+Deleted branch <nome-da-branch> (was f6d1862).
+```
+
+É possível também apagar múltiplas branches, basta separar cada branch que deseja deletar com espaço:
+
+```git
+git branch -D <branch-1> <branch-2>
+```
+
+É importante lembrar que só se pode apagar branches em que você não está no momento. Por exemplo, se você estiver na branch **teste**, você só consegue apagar as outras branches. Para apagar a branch **teste**, você precisa primeiro ir para outra branch e de lá apagá-la.
