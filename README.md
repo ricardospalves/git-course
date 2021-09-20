@@ -225,7 +225,7 @@ Date: Fri Sep 1 10:13:26 2017 -0300
 
 ### `shortlog`
 
-O comando `shortlog` exibe um log, em ordem alfabética, como o autor, o número de commits e quais forão esses commits.
+O comando `shortlog` exibe um log, em ordem alfabética, como o autor, o número de commits e quais foram esses commits.
 
 ```git
 git shortlog
